@@ -2,7 +2,7 @@
 
 ## The objectives of this assignment
 * Implement Variational Autoencoders (VAEs)
-* Implement Generative Adversarial Networks (GANs)
+* Implement Transformers for language modeling and sentiment analysis
 
 ## Working on the Assignment
 **We highly recommend the use of Google Colab, so that you can use free GPUs to speed up training.**
@@ -55,12 +55,12 @@ In each of the notebook file, we indicate `TODO` or `Your Code` for you to fill 
 ### Problem 1: Variational Autoencoders (45 points)
 The IPython Notebook `CSCI566_Assignment2_problem_1_VAE.ipynb` will walk you through implementing VAEs with PyTorch.
 
-### Problem 2: GANs for Image Generation (37 points)
-The IPython Notebook `CSCI566_Assignment2_problem_2_GAN.ipynb` will walk you through implementing a GAN with PyTorch.
+### Problem 2: Transformers for language modeling and sentiment analysis (37 points)
+The IPython Notebook `CSCI566_Assignment2_problem_2_Transformer.ipynb` will walk you through implementing a Transformer model with PyTorch.
 
 ## How to submit
 
-Run the following command to zip all the necessary files for submitting your assignment. Note that, in addition to your notebook **with all cell outputs** you will need to manually create a submission PDF for each problem set that compiles all generated plots / answers. Detailed instructions are at the end of the notebooks. The command below aggregates all notebooks and solution PDFs.
+Run the following command to zip all the necessary files for submitting your assignment. Note that, in addition to your notebook **with all cell outputs** you will need to manually create a submission PDF for each problem set that compiles all generated plots / answers. Detailed instructions are at the end of the notebooks. **Do not simply render your notebook as a pdf**. Create a separate file with **only** the specified components. The command below aggregates all notebooks and solution PDFs.
 
 **If using Colab, remember to download the .ipynb files locally!!!**
 
@@ -70,7 +70,8 @@ sh collectSubmission.sh
 
 This will create a file named `assignment2.zip`, **please rename it with your usc student id (eg. 4916525888.zip)**, and submit this file through the [Google form](https://docs.google.com/forms/d/e/1FAIpQLSdh6Qtqc81a4fJEuGRbF8o9Gxtr5vr7rbBOyluCgYTAsPdmoQ/viewform?usp=pp_url).
 Do NOT create your own .zip file, you might accidentally include non-necessary materials for grading.
-We will deduct points if you don't follow the above submission guideline.
+
+**We will deduct points if you don't follow the above submission guidelines.**
 
 **VERIFY THAT THE `assignment2.zip` CONTAINS THE IPYNB FILES AND THE PDFS**
 
@@ -81,15 +82,13 @@ If you have any question or find a bug in this assignment (or even any suggestio
 
 Again, NO INDIVIDUAL EMAILS WILL BE RESPONDED.
 
-PLEASE USE **PIAZZA** TO POST QUESTIONS (under folder assignment1).
+PLEASE USE **PIAZZA** TO POST QUESTIONS (under folder hw2).
 
 ## FAQ
 
 - Can I reuse the virtualenv from Assignment 1?
 You can reuse the vistual environment but maybe you need to install some missing packages using pip3 install -r requirements.txt.
 Maybe simpler is to create a new virtualenv, we give instructions above.
-- My reconstruction loss for Problem 2.4 is higher than 0.0145?
-You should achieve a reconstruction loss lower than 0.0145 for full credit.
 
 - **General debugging tips**
 1. Make sure your implementations matches the specified model layers perfectly.

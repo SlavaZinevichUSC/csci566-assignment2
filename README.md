@@ -55,7 +55,7 @@ In each of the notebook file, we indicate `TODO` or `Your Code` for you to fill 
 ### Problem 1: Variational Autoencoders (45 points)
 The IPython Notebook `CSCI566_Assignment2_problem_1_VAE.ipynb` will walk you through implementing VAEs with PyTorch.
 
-### Problem 2: Transformers for language modeling and sentiment analysis (37 points)
+### Problem 2: Transformers for language modeling and sentiment analysis (55 points)
 The IPython Notebook `CSCI566_Assignment2_problem_2_Transformer.ipynb` will walk you through implementing a Transformer model with PyTorch.
 
 ## How to submit
@@ -68,7 +68,7 @@ Run the following command to zip all the necessary files for submitting your ass
 sh collectSubmission.sh
 ```
 
-This will create a file named `assignment2.zip`, **please rename it with your usc student id (eg. 4916525888.zip)**, and submit this file through the [Google form](https://docs.google.com/forms/d/e/1FAIpQLSdh6Qtqc81a4fJEuGRbF8o9Gxtr5vr7rbBOyluCgYTAsPdmoQ/viewform?usp=pp_url).
+This will create a file named `assignment2.zip`, **please rename it with your usc student id (eg. 4916525888.zip)**, and submit this file through the [Google form](https://forms.gle/XTAaKoCQy1dTWeYu8).
 Do NOT create your own .zip file, you might accidentally include non-necessary materials for grading.
 
 **We will deduct points if you don't follow the above submission guidelines.**

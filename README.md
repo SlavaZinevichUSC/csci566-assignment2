@@ -89,6 +89,8 @@ PLEASE USE **PIAZZA** TO POST QUESTIONS (under folder hw2).
 - Can I reuse the virtualenv from Assignment 1?
 You can reuse the vistual environment but maybe you need to install some missing packages using pip3 install -r requirements.txt.
 Maybe simpler is to create a new virtualenv, we give instructions above.
+- Will I get full credit for my VAE generated samples?
+Please do not ask for verification on Piazza as to whether your generated samples will receive full credit. We will not be unreasonable. As long as your results look as expected, you will receive credit. If you’re worried, then compare to results from one of the [original VAE papers](https://arxiv.org/pdf/1312.6114.pdf).
 
 - **General debugging tips**
 1. Make sure your implementations matches the specified model layers perfectly.
